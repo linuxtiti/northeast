@@ -1,0 +1,68 @@
+site_name: 东北
+site_description: 绝望的东北——我那被偷走的故乡
+site_author: Nosy
+copyright: '版权 &copy; 2018 wohugb.github.io'
+
+# Repository
+repo_name: wohugb/northeast
+repo_url: https://github.com/wohugb/northeast
+edit_uri: ""
+
+theme:
+  name: material
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+  extra_css: [assets/stylesheets/extra.css]
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://wohugb.github.io
+    - type: github-alt
+      link: https://github.com/wohugb
+    - type: twitter
+      link: https://twitter.com/wohugb
+    - type: linkedin
+      link: https://linkedin.com/in/wohugb
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: false
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+# Page tree
+pages:
+  - 概述: index.md
+  - 前言: chapter0.md
+  - 时间废墟里的魔幻现实主义: chapter1.md
+  - 他们的东北，我们的故乡: chapter2.md
+  - 过去的从未过去: chapter3.md
+  - 一场生活的灾变: chapter4.md
+  - 东北人不都是黑社会: chapter5.md
+  - 祸根与恶果: chapter6.md
+  - 扭曲的民营经济与忧伤的年轻人: chapter7.md
+  - 无药可医的东北经济: chapter8.md
+  - 我再也回不去的故乡: chapter9.md
