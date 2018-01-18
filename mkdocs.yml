@@ -55,8 +55,7 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - 概述: index.md
-  - 前言: chapter0.md
+  - 我再也回不去的故乡: index.md
   - 时间废墟里的魔幻现实主义: chapter1.md
   - 他们的东北，我们的故乡: chapter2.md
   - 过去的从未过去: chapter3.md
